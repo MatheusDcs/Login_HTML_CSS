@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/cadastro.css">
+  <title>Cadastro</title>
+</head>
+<body>
+  <section class="area-cadastro">
+    <div class="cadastro">
+      <div class="cadastro-titulo">Cadastre-se</div>
+      <form>
+        <input class="cadastro-nome" type="text" name="nome" placeholder="Nome completo">
+        <input class="cadastro-email" type="email" name="e-mail" placeholder="E-mail" pattern="/^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i">
+        <input class="cadastro-senha" type="password" name="senha" placeholder="Senha" required pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$/">
+        <input class="cadastro-senha" type="password" name="senha" placeholder="Confirme sua senha" required pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[$*&@#])[0-9a-zA-Z$*&@#]{8,}$/">
+        <button>Criar conta</button>
+      </form>
+      <p>Ja possui conta? <a href="/html/login.html">Faça seu login</a></p>
+    </div>
+  </section>
+</body>
+</html>

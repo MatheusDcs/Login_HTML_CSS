@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color: #1b1f27;
+}
+
+.area-cadastro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cadastro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181920;
+  width: 447px;
+  height: auto;
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.cadastro-titulo{
+  font-size: 44px;
+  font-weight: bold;
+  color: #C5C9CB;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.cadastro form{
+  display: flex;
+  flex-direction: column;
+  width: 100% ;
+}
+
+.cadastro input{
+  margin-top: 20px;
+  height: 40px;
+  padding: 10px;
+  background-color: #252A34;
+  color: #C5C9CB;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  outline: none;
+}
+
+
+button{
+  padding: 20px;
+  background-color: #5568FE;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: .5s ease-in-out;
+}
+
+button:hover{
+  border: none;
+  outline: none;
+  background-color: #2b4c7e;
+  background-position: right;
+}
+
+p {
+  color: #C5C9CB;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+p a{
+  text-decoration: none;
+  color: #5568FE;
+}
+
+@media(max-width:550px){
+  .area-cadastro{
+    width: 400px;
+    margin: auto;
+  }
+}
+
+@media(max-width:450px){
+  .area-cadastro{
+    width: 300px;
+    margin: auto;
+  }
+}
